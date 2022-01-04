@@ -1,0 +1,150 @@
+{
+ "Version": "1.0.1",
+ "ReleaseNotes": "",
+ "Servers": [
+  {
+   "Name": "BRA | FREE",
+   "FLAG": "br.png",
+   "ServerIP": "svl.deanpola.xyz",
+   "ServerPort": "80",
+   "TlsSNI": "svl.deanpola.xyz",
+   "SSLPort": "443",
+   "TlsPAY": "GET \/ HTTP\/1.1[crlf]Host: svl.deanpola.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "User": "4567",
+   "Pass": "4567",
+   "OnlineUrl": "http://svl.deanpola.xyz:8888/server/online",
+   "LimiteServ": "1500"
+  },
+  {
+   "Name": "BRA-2 | FREE",
+   "FLAG": "br.png",
+   "ServerIP": "svl2.deanpola.xyz",
+   "ServerPort": "80",
+   "TlsSNI": "svl2.deanpola.xyz",
+   "SSLPort": "443",
+   "TlsPAY": "GET \/ HTTP\/1.1[crlf]Host: svl2.deanpola.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "User": "4567",
+   "Pass": "4567",
+   "OnlineUrl": "http://svl2.deanpola.xyz:8888/server/online",
+   "LimiteServ": "1500"
+  },
+  {
+   "Name": "BRA-3 | FREE",
+   "FLAG": "br.png",
+   "ServerIP": "svl3.deanpola.xyz",
+   "ServerPort": "80",
+   "TlsSNI": "svl3.deanpola.xyz",
+   "SSLPort": "443",
+   "TlsPAY": "GET \/ HTTP\/1.1[crlf]Host: svl3.deanpola.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "User": "4567",
+   "Pass": "4567",
+   "OnlineUrl": "http://svl3.deanpola.xyz:8888/server/online",
+   "LimiteServ": "1500"
+  },
+  {
+   "Name": "BRA-4 | FREE",
+   "FLAG": "br.png",
+   "ServerIP": "svl4.deanpola.xyz",
+   "ServerPort": "80",
+   "TlsSNI": "svl4.deanpola.xyz",
+   "SSLPort": "443",
+   "TlsPAY": "GET \/ HTTP\/1.1[crlf]Host: svl4.deanpola.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "User": "4567",
+   "Pass": "4567",
+   "OnlineUrl": "http://svl4.deanpola.xyz:8888/server/online",
+   "LimiteServ": "1500"
+  }
+ ],
+ "Networks": [
+  {
+   "Name": "VIVO",
+   "Payload": "GET \/ HTTP\/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "",
+   "TlsIP": "",
+   "ProxyIP": "vivo.kiritossh.xyz",
+   "ProxyPort": "80",
+   "Info": "Proxy"
+  },
+  {
+   "Name": "VIVO TLS",
+   "Payload": "",
+   "SNI": "",
+   "TlsIP": "vivo.kiritossh.xyz",
+   "ProxyIP": "vivo.kiritossh.xyz",
+   "ProxyPort": "80",
+   "Info": "Tlsws"
+  },
+  {
+   "Name": "TIM TLS",
+   "Payload": "",
+   "SNI": "",
+   "TlsIP": "tim.kiritossh.xyz",
+   "ProxyIP": "tim.kiritossh.xyz",
+   "ProxyPort": "80",
+   "Info": "Tlsws"
+  },
+  {
+   "Name": "TIM SOCKS",
+   "Payload": "HTTP/ 2\nHOST : m.opera.com\n\n",
+   "SNI": "",
+   "TlsIP": "",
+   "ProxyIP": "",
+   "ProxyPort": "",
+   "Info": "Tim"
+  },
+  {
+   "Name": "TIM SOCKS 02",
+   "Payload": "ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]",
+   "SNI": "",
+   "TlsIP": "",
+   "ProxyIP": "",
+   "ProxyPort": "",
+   "Info": "Tim"
+  },
+  {
+   "Name": "TIM SOCKS 03",
+   "Payload": "HTTP/1.1 [lf]CONNECT HTTP/1.1[lf][lf]|[lf]",
+   "SNI": "",
+   "TlsIP": "",
+   "ProxyIP": "",
+   "ProxyPort": "",
+   "Info": "Tim"
+  },
+  {
+   "Name": "CLARO",
+   "Payload": "GET \/ HTTP\/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "",
+   "TlsIP": "",
+   "ProxyIP": "claro.kiritossh.xyz",
+   "ProxyPort": "80",
+   "Info": "Proxy"
+  },
+  {
+   "Name": "CLARO TLS",
+   "Payload": "",
+   "SNI": "",
+   "TlsIP": "claro.kiritossh.xyz",
+   "ProxyIP": "claro.kiritossh.xyz",
+   "ProxyPort": "80",
+   "Info": "Tlsws"
+  },
+  {
+   "Name": "OI",
+   "Payload": "GET \/ HTTP\/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "",
+   "TlsIP": "",
+   "ProxyIP": "oii.kiritossh.xyz",
+   "ProxyPort": "80",
+   "Info": "Proxy"
+  },
+  {
+   "Name": "OI TLS",
+   "Payload": "",
+   "SNI": "",
+   "TlsIP": "oii.kiritossh.xyz",
+   "ProxyIP": "oii.kiritossh.xyz",
+   "ProxyPort": "80",
+   "Info": "Tlsws"
+  }
+ ]
+}
