@@ -1,5 +1,5 @@
 {
-"SendMessage":00,
+"SendMessage":01,
 "MyMessage":
 "Após a cada atualização é recomendado que limpem os dados e cache do app para remover bugs.\n\n Desisntala e instalar não adianta... se seu app está com bugs limpe os dados da aplicação.\n\n",
 "BuildId":25,
