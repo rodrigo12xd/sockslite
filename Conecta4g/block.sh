@@ -1,4 +1,5 @@
 #!/bin/bash
+apt install ipset -y
 iptables -P INPUT ACCEPT;
 iptables -P FORWARD ACCEPT;
 iptables -P OUTPUT ACCEPT;
