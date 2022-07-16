@@ -1,6 +1,6 @@
 {
     "Aviso": "true",
-    "Msg_aviso": "<p>Aviso<br />Operadora <span style="color: #00ff00;">Vivo</span>&nbsp;esta com instabilidade, teste todas as op&ccedil;&otilde;es do aplicativo. Caso n&atilde;o funcione aguarde novas conexoes.</p>",
+    "Msg_aviso": "Aviso<br>Operadora Vivo funcionando esta com instabilidade, teste todas as opções do aplicativo. Caso não funcione aguarde novas conexoes.",
     "BuildId": "41",
     "BuildTitle": "Atualização Disponivel",
     "BuildMsg": "Atualização Disponivel na PlayStore(V39)\n\nObs: Limpe os dados e cache do app após atualizar \n\nSe mantenha Atualizado e entre no nosso grupo do telegram @sockslite \n\n",
