@@ -1,9 +1,9 @@
 {
-    "Aviso": "true",
-    "Msg_aviso": "<p style=\"text-align: center;\"><span style=\"color: #ff0000;\">Aviso</span><br /><span style=\"color: #000000;\">Operadora <span style=\"color: #0000ff;\">Vivo</span> esta com instabilidade, teste todas as op&ccedil;&otilde;es do aplicativo. Caso n&atilde;o funcione aguarde novas conexoes.</span></p>",
-    "BuildId": "41",
+    "Aviso": "false",
+    "Msg_aviso": "",
+    "BuildId": "43",
     "BuildTitle": "Atualização Disponivel",
-    "BuildMsg": "Atualização Disponivel na PlayStore(V39)\n\nObs: Limpe os dados e cache do app após atualizar \n\nSe mantenha Atualizado e entre no nosso grupo do telegram @sockslite \n\n",
+    "BuildMsg": "Atualização Disponivel na PlayStore(V44)\n\nObs: Limpe os dados e cache do app após atualizar \n\nSe mantenha Atualizado e entre no nosso grupo do telegram @sockslite \n\n",
     "BtConfirmar": "ATUALIZAR",
     "Url": "https://play.google.com/store/apps/details?id=com.sockslitepro.vpn&hl=pt_BR&gl=US"
 }
