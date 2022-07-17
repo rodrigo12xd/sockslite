@@ -1,4 +1,4 @@
 {
     "Aviso": "true",
-    "Msg_aviso": "TESTE"
+    "Msg_aviso": "<p><span style=\"color: #ff0000; background-color: #0000ff;\">TESTE</span></p>"
 }
