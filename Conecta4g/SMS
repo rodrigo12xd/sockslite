@@ -1,4 +1,4 @@
 {
-    "Aviso": "true",
-    "Msg_aviso": "<p>Aviso<br>Operadora Vivo com instabilidade</p>"
+    "Aviso": "false",
+    "Msg_aviso": ""
 }
