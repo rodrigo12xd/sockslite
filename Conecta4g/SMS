@@ -1,4 +1,5 @@
 {
-    "Aviso": "false",
-    "Msg_aviso": ""
+    "Aviso": "true",
+    "Msg_aviso": "<p style=\"text-align: center;\"><strong><span style=\"color: #ff0000;\">Aviso</span></strong></p>
+<p style=\"text-align: center;\"><strong><span style=\"color: #ff0000;\">Aplicativo em manunten&ccedil;&atilde;o... Aguarde.</span></strong></p>"
 }
