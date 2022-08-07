@@ -1,9 +1,9 @@
 {
-    "Aviso": true,
+    "Aviso": false,
     "HtmlSuport": true,
-    "MsgAviso": "<p style=\"text-align:center\"><img alt=\"\" src=\"https://img.freepik.com/fotos-gratis/imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.jpg?w=1060&amp;t=st=1659913598~exp=1659914198~hmac=2c7a6f5614bfd7ce54074230f1fa2af141fc65a956921c5c34acc3997aa6197d\" style=\"height:100px; width:150px\" /></p>",
+    "MsgAviso": "",
     "__AlertMSG__": "",
-    "Alert": true,
+    "Alert": false,
     "Title": "Atualização Disponivel",
     "Text": "Atualização Disponivel na PlayStore(V44)\n\nObs: Limpe os dados e cache do app após atualizar \n\nSe mantenha Atualizado e entre no nosso grupo do telegram @sockslite \n\n",
     "UrlSuporte": false,
