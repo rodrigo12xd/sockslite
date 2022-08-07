@@ -1,9 +1,15 @@
 {
-    "Aviso": "false",
-    "Msg_aviso": "",
-    "BuildId": "44",
-    "BuildTitle": "Atualização Disponivel",
-    "BuildMsg": "Atualização Disponivel na PlayStore(V44)\n\nObs: Limpe os dados e cache do app após atualizar \n\nSe mantenha Atualizado e entre no nosso grupo do telegram @sockslite \n\n",
-    "BtConfirmar": "ATUALIZAR",
+    "Aviso": true,
+    "HtmlSuport": false,
+    "MsgAviso": "Teste\nEsse é um Aviso de teste",
+    "__AlertMSG__": "",
+    "Alert": true,
+    "Title": "Atualização Disponivel",
+    "Text": "Atualização Disponivel na PlayStore(V44)\n\nObs: Limpe os dados e cache do app após atualizar \n\nSe mantenha Atualizado e entre no nosso grupo do telegram @sockslite \n\n",
+    "UrlSuporte": true,
+    "EnableCancel": true,
+    "PushNotification": false,
+    "TextConfirmar": "ATUALIZAR",
+    "TextCancel": "FECHAR",
     "Url": "https://play.google.com/store/apps/details?id=com.sockslitepro.vpn&hl=pt_BR&gl=US"
 }
