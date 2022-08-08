@@ -9,7 +9,7 @@
     "UrlSuporte": false,
     "EnableCancel": false,
     "SetCancelable": false,
-    "PushNotification": true,
+    "PushNotification": false,
     "TextConfirmar": "Certo",
     "TextCancel": "FECHAR",
     "Url": "https://play.google.com/store/apps/details?id=com.sockslitepro.vpn&hl=pt_BR&gl=US"
