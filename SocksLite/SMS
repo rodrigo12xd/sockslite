@@ -1,7 +1,7 @@
 {
-    "Aviso": false,
+    "Aviso": true,
     "HtmlSuport": true,
-    "MsgAviso": "",
+    "MsgAviso": "<p style=\"text-align:center\"><strong>Informativo</strong></p><p><strong>Operadora VIVO:</strong></p><p>Funcionando novamente em todos os DDD&#39;S, basta seleciona a conex&atilde;o CDN(NOVO).</p><p><strong>Operadora CLARO:</strong></p><p>N&atilde;o est&aacute; funcionando. Apenas funciona para pessoas que contem plano ativo na linha, utilizando as conex&otilde;es (SSH/SSL).</p><p><strong>Operadora TIM:</strong></p><p>Funcionando perfeitamente na maior parte das regi&otilde;es, basta testa as conex&otilde;es e achar a melhor para seu uso.</p><p><strong>Operadora OI:</strong></p><p>Algumas regi&otilde;es funciona.</p>",
     "__AlertMSG__": "",
     "Alert": false,
     "Title": "Atualização Disponivel",
