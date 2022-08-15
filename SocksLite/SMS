@@ -1,7 +1,7 @@
 {
     "Aviso": true,
     "HtmlSuport": true,
-    "MsgAviso": "<p style=\"text-align:center\">&nbsp;</p><p style=\"text-align:center\"><strong><span style=\"color:#000000\">AVISO:</span> <span style=\"color:#ff0000\">VIVO OFF</span></strong></p>",
+    "MsgAviso": "<p style=\"text-align:center\">&nbsp;</p><p style=\"text-align:center\"><strong><span style=\"color:#00ff00\">AVISO:</span> <span style=\"color:#ff0000\">VIVO OFF</span></strong></p>",
     "__AlertMSG__": "",
     "Alert": false,
     "Title": "Atualização Disponivel",
