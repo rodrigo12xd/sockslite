@@ -1,5 +1,5 @@
 {
-    "Aviso": true,
+    "Aviso": false,
     "HtmlSuport": true,
     "MsgAviso": "<p style=\"text-align:center\">&nbsp;</p><p style=\"text-align:center\"><strong><span style=\"color:#00008b\">AVISO:</span> <span style=\"color:#00ff00\">VIVO ON</span></strong></p>",
     "__AlertMSG__": "",
