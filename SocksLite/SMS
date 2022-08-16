@@ -1,7 +1,7 @@
 {
-    "Aviso": false,
+    "Aviso": true,
     "HtmlSuport": true,
-    "MsgAviso": "<p style=\"text-align:center\">&nbsp;</p><p style=\"text-align:center\"><strong><span style=\"color:#00008b\">AVISO:</span> <span style=\"color:#00ff00\">VIVO ON</span></strong></p>",
+    "MsgAviso": "<p style=\"text-align:center\">AVISO IMPORTANTE</p><p style=\"text-align:center\">PRA QUEM N&Atilde;O EST&Aacute; CONSEGUINDO ULTILIZAR A TIM, ENTRE NO APLICATIVO COM INTERNET PARA ATUALIZAR E EN SEGUIDA UTILIZE A CONEX&Atilde;O AUTOMATICA OU 🔵INJECT TLS 02</p>",
     "__AlertMSG__": "",
     "Alert": false,
     "Title": "Atualização Disponivel",
