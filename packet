@@ -1,1 +1,329 @@
-{"Null":"com.sockslitepro.vpn"}
+{
+    "Version": "1.1.0",
+    "ReleaseNotes": "",
+    "Init": "300000",
+    "Fim": "7200000",
+    "Packet": "false",
+    "Servers": [
+        {
+            "Name": "ULTIMATE BR | FREE",
+            "FLAG": "br.png",
+            "ServerIP": "server01.ultimatevpn.online",
+            "PServerIP": "sv01.ultimatevpn.online",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "User": "085837",
+            "Pass": "085837",
+            "OnlineUrl": "http://server01.ultimatevpn.online:8888/server/online_app"
+        },
+        {
+            "Name": "ULTIMATE BR 02 | FREE",
+            "FLAG": "br.png",
+            "ServerIP": "server02.ultimatevpn.online",
+            "PServerIP": "sv02.ultimatevpn.online",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "User": "085837",
+            "Pass": "085837",
+            "OnlineUrl": "http://server02.ultimatevpn.online:8888/server/online_app"
+        },
+        {
+            "Name": "ULTIMATE BR 03 | FREE",
+            "FLAG": "br.png",
+            "ServerIP": "server03.ultimatevpn.online",
+            "PServerIP": "sv03.ultimatevpn.online",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "User": "085837",
+            "Pass": "085837",
+            "OnlineUrl": "http://server03.ultimatevpn.online:8888/server/online_app"
+        },
+        {
+            "Name": "ULTIMATE BR 04 | FREE",
+            "FLAG": "br.png",
+            "ServerIP": "server04.ultimatevpn.online",
+            "PServerIP": "sv04.ultimatevpn.online",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "User": "085837",
+            "Pass": "085837",
+            "OnlineUrl": "http://server04.ultimatevpn.online:8888/server/online_app"
+        },
+        {
+            "Name": "ULTIMATE BR 05 | FREE",
+            "FLAG": "br.png",
+            "ServerIP": "server05.ultimatevpn.online",
+            "PServerIP": "sv05.ultimatevpn.online",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "User": "085837",
+            "Pass": "085837",
+            "OnlineUrl": "http://server05.ultimatevpn.online:8888/server/online_app"
+        },
+        {
+            "Name": "ULTIMATE BR 06 | FREE",
+            "FLAG": "br.png",
+            "ServerIP": "server06.ultimatevpn.online",
+            "PServerIP": "sv06.ultimatevpn.online",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "User": "085837",
+            "Pass": "085837",
+            "OnlineUrl": "http://server06.ultimatevpn.online:8888/server/online_app"
+        },
+        {
+            "Name": "ULTIMATE BR 07 | FREE",
+            "FLAG": "br.png",
+            "ServerIP": "server07.ultimatevpn.online",
+            "PServerIP": "sv07.ultimatevpn.online",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "User": "085837",
+            "Pass": "085837",
+            "OnlineUrl": "http://server07.ultimatevpn.online:8888/server/online_app"
+        },
+        {
+            "Name": "ULTIMATE BR 08 | FREE",
+            "FLAG": "br.png",
+            "ServerIP": "server08.ultimatevpn.online",
+            "PServerIP": "sv08.ultimatevpn.online",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "User": "085837",
+            "Pass": "085837",
+            "OnlineUrl": "http://server08.ultimatevpn.online:8888/server/online_app"
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "INJECT TLS 01 (REGIOES)",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "[app_host]",
+            "TlsIP": "172.67.165.43",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_v",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT PROXY 02",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "172.67.165.43",
+            "ProxyPort": "80",
+            "Flag": "ic_t",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "INJECT TLS 03 (EASY)",
+            "Payload": "GET wss://vivo360.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "vivo360.vivo.com.br",
+            "TlsIP": "104.18.6.80",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_v",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT TLS 04",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "[app_host]",
+            "TlsIP": "104.21.11.51",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_v",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT PROXY 05",
+            "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "bam.nr-data.net",
+            "TlsIP": "bam.nr-data.net",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_t",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT TLS 06",
+            "Payload": "GET wss://www.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "www.c6bank.com.br",
+            "TlsIP": "www.c6bank.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_t",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT TLS 07",
+            "Payload": "GET ws://wwww.alura.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+            "SNI": "www.alura.com.br",
+            "TlsIP": "wwww.alura.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_t",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT TLS 08",
+            "Payload": "GET sni://static.r4you.co [protocol][crlf]Host: [app_host_proxy][crlf]X-Forwarded-For: [app_host_proxy][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: sockslite[crlf][crlf]",
+            "SNI": "static.r4you.co",
+            "TlsIP": "static.r4you.co",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_t",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT TLS 09",
+            "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host_proxy][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "static.r4you.co",
+            "TlsIP": "static.r4you.co",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_t",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT TLS 10",
+            "Payload": "GET wss://xvideos.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: SocksLite[crlf]Connection: Keep-Alive[crlf][crlf]",
+            "SNI": "xvideos.com",
+            "TlsIP": "104.16.18.94",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_t",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT TLS 11",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "[app_host]",
+            "TlsIP": "104.16.19.94",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_t",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT PYTHON/SOCKS 12",
+            "Payload": "ACL HTTP/1.1[lf]Host: google.es[lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "80",
+            "Flag": "ic_t",
+            "Info": "Direct"
+        },
+        {
+            "Name": "INJECT PYTHON/SOCKS 13",
+            "Payload": "ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "80",
+            "Flag": "ic_t",
+            "Info": "Direct"
+        },
+        {
+            "Name": "INJECT PYTHON/SOCKS 14",
+            "Payload": "HTTP/ 2\nHOST : m.opera.com\n\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "80",
+            "Flag": "ic_t",
+            "Info": "Direct"
+        },
+        {
+            "Name": "INJECT PYTHON/SOCKS 15",
+            "Payload": "HTTP/1.1 [lf]CONNECT HTTP/1.1[lf][lf]|[lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "80",
+            "Flag": "ic_t",
+            "Info": "Direct"
+        },
+        {
+            "Name": "INJECT TLS 16 (RAPIDO)",
+            "Payload": "GET ws://communitystaging.kaltura.com HTTP/1.1\nHost: [app_host_proxy]\nUpgrade: ws\n\n",
+            "SNI": "communitystaging.kaltura.com",
+            "TlsIP": "communitystaging.kaltura.com",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_c",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT TLS 17 (MODO LENTO)",
+            "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host_proxy]\nUpgrade: WebSocket\n\n",
+            "SNI": "content.akross.com.br",
+            "TlsIP": "content.akross.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_c",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT SSL 18",
+            "Payload": "",
+            "SNI": "dns.web.whatsapp.com",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_c",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "INJECT SSL 19",
+            "Payload": "",
+            "SNI": "m.waze.com",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_c",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "INJECT SSL 20",
+            "Payload": "",
+            "SNI": "c.whatsapp.net",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_c",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "INJECT SSL 21",
+            "Payload": "",
+            "SNI": "m.twitter.com",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_c",
+            "Info": "Ssl"
+        },
+        {
+            "Name": "INJECT TLS 22",
+            "Payload": "GET ssl://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host_proxy][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "www.hbogo.com.br",
+            "TlsIP": "www.hbogo.com.br",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Flag": "ic_o",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "INJECT PROXY 23",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.56.6",
+            "ProxyPort": "80",
+            "Flag": "ic_o",
+            "Info": "Proxy"
+        }
+    ]
+}
