@@ -1,4 +1,4 @@
 {
-    "Aviso": "true",
-    "Msg_aviso": "<p style=\"text-align:center\"><strong>AVISO DE MANUNTEN&Ccedil;&Atilde;O</strong></p><p><strong>AS 20:00H TERA UMA MANUNTEN&Ccedil;&Atilde;O NO SERVIDOR, DURANTE A MANUNTEN&Ccedil;&Atilde;O O APP N&Atilde;O IRA FUNCIONAR... TEMPO ESTIMADO DE 20MIN</strong></p>"
+    "Aviso": "false",
+    "Msg_aviso": "MANUNTENÇÃO FINALIZADA"
 }
