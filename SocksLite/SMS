@@ -1,1 +1,15 @@
-<p style=\"text-align:center\"><span style=\"color:#e74c3c\"><strong>AVISO</strong></span></p><p><span style=\"color:#2ecc71\"><strong>SE ACONTECER DE DAR ERRO NA SENHA E PEDIR PARA ATUALIZAR O APP, ENTRE NO APLICATIVO COM ACESSO A INTERNET E APERTA NA NUVEM QUE SE ENCONTRA NA PARTE DE CIMA DO APP PARAR ATUALIZAR AS CONFIGURA&Ccedil;&Otilde;ES. APOS FAZER ISSO O APP VAI VOLTAR A FUNCIONAR NORMALMENTE.</strong></span></p>
+{
+    "Aviso": true,
+    "HtmlSuport": true,
+    "MsgAviso": "<p style=\"text-align:center\"><span style=\"color:#e74c3c\"><strong>AVISO</strong></span></p><p><span style=\"color:#2ecc71\"><strong>SE ACONTECER DE DAR ERRO NA SENHA E PEDIR PARA ATUALIZAR O APP, ENTRE NO APLICATIVO COM ACESSO A INTERNET E APERTA NA NUVEM QUE SE ENCONTRA NA PARTE DE CIMA DO APP PARAR ATUALIZAR AS CONFIGURA&Ccedil;&Otilde;ES. APOS FAZER ISSO O APP VAI VOLTAR A FUNCIONAR NORMALMENTE.</strong></span></p>",
+    "Alert": false,
+    "Title": "",
+    "Text": "",
+    "UrlSuporte": false,
+    "EnableCancel": false,
+    "SetCancelable": false,
+    "PushNotification": false,
+    "TextConfirmar": "",
+    "TextCancel": "",
+    "Url": ""
+}
