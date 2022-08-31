@@ -1,7 +1,7 @@
 {
     "Aviso": true,
     "HtmlSuport": true,
-    "MsgAviso": "<p style=\"text-align:center\"><span style=\"font-size:16px\"><span style=\"font-family:Comic Sans MS,cursive\"><span style=\"color:#ff0000\"><strong>AVISO</strong></span></span></span></p><p><span style=\"font-size:16px\"><span style=\"font-family:Comic Sans MS,cursive\"><span style=\"color:#ff0000\"><strong>DEVIDO A UM BUG NO TEMPO DA VERS&Atilde;O 49, UMA NOVA ATUALIZA&Ccedil;&Atilde;O FOI ENVIADA. LOGO A ATUALIZA&Ccedil;&Atilde;O DEVE ESTA DISPONIVEL PARA DOWNLOAD.</strong></span></span></span></p>",
+    "MsgAviso": "<p style=\"text-align:center\">AVISO IMPORTANTE</p><p>QUEM PRETENDE ATUALIZA DA VERS&Atilde;O 49 PARA 50 VAI PRECISA LIMPA OS DADOS DO APLICATIVO OU DESINSTALAR E INSTALAR. APOS FAZER ISSO O APLICATIVO VAI ABRIR NORMALMENTE.</p>",
     "Alert": false,
     "Title": "",
     "Text": "",
