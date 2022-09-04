@@ -1,5 +1,5 @@
 {
-    "Aviso": true,
+    "Aviso": false,
     "HtmlSuport": true,
     "MsgAviso": "<p style=\"text-align:center\">AVISO IMPORTANTE</p><p>QUEM PRETENDE ATUALIZA DA VERS&Atilde;O 49 PARA 50 VAI PRECISA LIMPA OS DADOS DO APLICATIVO OU DESINSTALAR E INSTALAR. APOS FAZER ISSO O APLICATIVO VAI ABRIR NORMALMENTE.</p>",
     "Alert": false,
