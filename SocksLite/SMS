@@ -1,7 +1,7 @@
 {
-    "Aviso": false,
+    "Aviso": true,
     "HtmlSuport": true,
-    "MsgAviso": "<p style=\"text-align:center\">AVISO IMPORTANTE</p><p>QUEM PRETENDE ATUALIZA DA VERS&Atilde;O 49 PARA 50 VAI PRECISA LIMPA OS DADOS DO APLICATIVO OU DESINSTALAR E INSTALAR. APOS FAZER ISSO O APLICATIVO VAI ABRIR NORMALMENTE.</p>",
+    "MsgAviso": "<p style=\"text-align: center;\">AVISO IMPORTANTE</p><p style=\"text-align: center;\">OPERADORA CLARO SEM FUNCIONAR NA MAIOR PARTE DAS REGI&Otilde;ES.</p>",
     "Alert": false,
     "Title": "",
     "Text": "",
