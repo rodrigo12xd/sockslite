@@ -1,7 +1,7 @@
 {
     "Aviso": true,
     "HtmlSuport": true,
-    "MsgAviso": "<p style=\"text-align: center;\">AVISO IMPORTANTE</p><p style=\"text-align: center;\">OPERADORA CLARO SEM FUNCIONAR NA MAIOR PARTE DAS REGI&Otilde;ES.</p>",
+    "MsgAviso": "<p style=\"text-align: center;\">AVISO IMPORTANTE</p><p style=\"text-align: left;\">🟣VIVO - FUNCIONANDO✅</p><p style=\"text-align: left;\">🔵TIM - SEM FUNCIONAR NA MAIOR PARTE DAS REGI&Otilde;ES❌</p><p style=\"text-align: left;\">🔴CLARO - SEM FUNCIONAR NA MAIOR PARTE DAS REGI&Otilde;ES❌</p><p style=\"text-align: left;\">🟡OI - RELATOS QUE AINDA FUNCIONA♻️</p><p style=\"text-align: left;\">&nbsp;</p><p><span style=\"color: #0000ff;\">OBS: FIQUEM LIGADOS NAS MENSAGENS DO APLICATIVO E NO NOSSO GRUPO DO TELEGRAM. QUANDO TIVER CONEX&Otilde;ES NOVAS O APP SERA ATUALIZADO IMEDIATAMENTE.⚡️</span></p><p><span style=\"color: #ff6600;\">PARA OS DESINFORMADOS&nbsp;A QUEDA DAS CONEX&Otilde;ES N&Atilde;O &Eacute; UM PROBLEMA DO APLICATIVO, OS USU&Aacute;RIOS PRECISAM AGUARDA SURGIR NOVAS CONEX&Otilde;ES QUE FUNCIONE.</span></p>",
     "Alert": false,
     "Title": "",
     "Text": "",
