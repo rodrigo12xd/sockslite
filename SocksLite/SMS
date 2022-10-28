@@ -2,14 +2,14 @@
     "Aviso": true,
     "HtmlSuport": true,
     "MsgAviso": "<p style=\"text-align: center;\">AVISO IMPORTANTE</p><p style=\"text-align: left;\">🟣VIVO - ALGUMAS REGIÕES OU VIVO EASY ATIVO✅</p><p style=\"text-align: left;\">🔵TIM - FUNCIONA COM SALDO NA VALIDADE✅</p><p style=\"text-align: left;\">🔴CLARO - FUNCIONANDO⚙✅</p><p style=\"text-align: left;\">🟡OI - RELATOS QUE AINDA FUNCIONA♻️</p><p style=\"text-align: left;\">&nbsp;</p><p><span style=\"color: #FEFF00;\">OBS: FIQUEM LIGADOS NAS MENSAGENS DO APLICATIVO E NO NOSSO GRUPO DO TELEGRAM. QUANDO TIVER CONEX&Otilde;ES NOVAS O APP SERA ATUALIZADO IMEDIATAMENTE.⚡️</span></p><p><span style=\"color: #ff6600;\">PARA OS DESINFORMADOS&nbsp;A QUEDA DAS CONEX&Otilde;ES N&Atilde;O &Eacute; UM PROBLEMA DO APLICATIVO, OS USU&Aacute;RIOS PRECISAM AGUARDA SURGIR NOVAS CONEX&Otilde;ES QUE FUNCIONE.</span></p>",
-    "Alert": false,
-    "Title": "",
-    "Text": "",
-    "UrlSuporte": false,
+    "Alert": true,
+    "Title": "Aviso Importante",
+    "Text": "Essa versão do SocksLite ira ser desabilitada, instale o novo aplicativo pra evitar interrupções. \n\n Aperte no botão abaixo pra Baixar a nova Versão.",
+    "UrlSuporte": true,
     "EnableCancel": false,
     "SetCancelable": false,
-    "PushNotification": false,
-    "TextConfirmar": "",
+    "PushNotification": true,
+    "TextConfirmar": "Baixar novo APP",
     "TextCancel": "",
-    "Url": ""
+    "Url": "https://play.google.com/store/apps/details?id=com.sockslitepro.net"
 }
