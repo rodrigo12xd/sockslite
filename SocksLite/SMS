@@ -1,7 +1,7 @@
 {
-    "Aviso": false,
+    "Aviso": true,
     "HtmlSuport": true,
-    "MsgAviso": "<h2><strong><span style=\"background-color: #ff0000;\">ESSA VERS&Atilde;O SERA DESCONTINUADA, BAIXE A NOVA VERS&Atilde;O NA PLAYSTORE E EVITE INTERRUP&Ccedil;&Otilde;ES.</span></strong></h2>",
+    "MsgAviso": "<h2><span style=\"color: #ffffff; background-color: #ff0000;\"><strong>ESSA VERS&Atilde;O SERA DESCONTINUADA, BAIXE A NOVA VERS&Atilde;O NA PLAYSTORE E EVITE INTERRUP&Ccedil;&Otilde;ES.</strong></span></h2>",
     "Alert": true,
     "Title": "Aviso Importante",
     "Text": "Essa versão do SocksLite ira ser desabilitada, instale o novo aplicativo pra evitar interrupções. \n\n Aperte no botão abaixo pra Baixar a nova Versão. \n\n",
