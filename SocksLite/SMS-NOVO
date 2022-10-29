@@ -9,9 +9,9 @@
     "Text": "Teste",
     "UrlSuporte": false,
     "EnableCancel": false,
-    "SetCancelable": false,
+    "SetCancelable": true,
     "PushNotification": false,
-    "TextConfirmar": "",
+    "TextConfirmar": "Fechar",
     "TextCancel": "",
     "Url": ""
 }
