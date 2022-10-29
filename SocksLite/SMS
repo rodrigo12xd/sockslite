@@ -1,15 +1,16 @@
 {
     "Aviso": true,
     "HtmlSuport": true,
-    "MsgAviso": "<h2><span style=\"color: #ffffff; background-color: #ff0000;\"><strong>ESSA VERS&Atilde;O SERA DESCONTINUADA, BAIXE A NOVA VERS&Atilde;O NA PLAYSTORE E EVITE INTERRUP&Ccedil;&Otilde;ES.</strong></span></h2>",
+    "MsgAviso": "<h2 style=\"text-align: left;\"><span style=\"color: #ffffff; background-color: #ff0000;\"><strong>ESSA VERS&Atilde;O SERA DESCONTINUADA, BAIXE A NOVA VERS&Atilde;O NA PLAYSTORE E EVITE INTERRUP&Ccedil;&Otilde;ES.</strong></span></h2>
+<h2 style=\"text-align: left;\"><span style=\"color: #ffffff; background-color: #ff0000;\"><strong>THIS VERSION WILL BE DISCONTINUED, DOWNLOAD THE NEW VERSION FROM THE PLAYSTORE AND AVOID INTERRUPTIONS.</strong></span></h2>",
     "Alert": true,
     "Title": "Aviso Importante",
-    "Text": "Essa versão do SocksLite ira ser desabilitada, instale o novo aplicativo pra evitar interrupções. \n\n Aperte no botão abaixo pra Baixar a nova Versão. \n\n",
+    "Text": "PT/BR: Essa versão do SocksLite ira ser desabilitada, instale o novo aplicativo pra evitar interrupções. \n\n Aperte no botão abaixo pra Baixar a nova Versão. \nEN-US: This version of SocksLite will be disabled, install the new app to avoid interruptions. \n\n Press the button below to Download the new Version. \n\n",
     "UrlSuporte": true,
     "EnableCancel": false,
     "SetCancelable": false,
     "PushNotification": true,
-    "TextConfirmar": "Baixar novo APP",
+    "TextConfirmar": "Baixar novo APP|Download",
     "TextCancel": "",
     "Url": "https://play.google.com/store/apps/details?id=com.sockslitepro.net"
 }
