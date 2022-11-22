@@ -8,12 +8,12 @@
     "CurrentId": 1,
     "SaveId": true,
     "Title": "Comemoração Especial",
-    "Text": "Com poucas semanas de recém publicado, o SocksLite já alcançou a marca de 500 mil Downloads na PlayStore, agradeço a todos que utilizam e curtem nosso Aplicativo. 😎 Sera realizado um sorteio em breve, os detalhes do sorteio será enviado no nosso Canal do Telegram.",
-    "UrlSuporte": false,
-    "EnableCancel": false,
+    "Text": "Com poucas semanas de recém publicado, o SocksLite já alcançou a marca de 500 mil Downloads na PlayStore, agradeço a todos que utilizam e curtem nosso Aplicativo. \n😎 Sera realizado um sorteio em breve, os detalhes do sorteio será enviado no nosso Canal do Telegram.",
+    "UrlSuporte": true,
+    "EnableCancel": true,
     "SetCancelable": false,
     "PushNotification": false,
-    "TextConfirmar": "Certo",
+    "TextConfirmar": "Canal Telegram",
     "TextCancel": "Fechar",
     "Url": "https://t.me/sockslitevpn"
 }
