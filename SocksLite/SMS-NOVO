@@ -10,7 +10,7 @@
     "Title": "Sorteio já Disponivel",
     "Text": "Entre no Canal do Telegram e confira os requsitos pra participar.",
     "UrlSuporte": true,
-    "EnableCancel": false,
+    "EnableCancel": true,
     "SetCancelable": false,
     "PushNotification": false,
     "TextConfirmar": "Canal Telegram",
