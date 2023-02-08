@@ -15,6 +15,5 @@
     "PushNotification": false,
     "TextConfirmar": "Certo",
     "TextCancel": "",
-    "Url": "https://www.google.com",
-    "Url2": "https://www.google.com"
+    "Url": "https://www.google.com"
 }
