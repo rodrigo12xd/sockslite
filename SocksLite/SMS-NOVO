@@ -8,12 +8,12 @@
     "CurrentId": 08,
     "SaveId": false,
     "Title": "AVISO IMPORTANTE 📢",
-    "Text": "Opções (FRONT) estão Ativas novamente. ✅",
-    "UrlSuporte": false,
+    "Text": "Atualize para versão mais recente, em breve essa versão será desativada.",
+    "UrlSuporte": true,
     "EnableCancel": false,
     "SetCancelable": true,
-    "PushNotification": false,
-    "TextConfirmar": "Certo",
+    "PushNotification": true,
+    "TextConfirmar": "Atualizar",
     "TextCancel": "",
-    "Url": ""
+    "Url": "https://play.google.com/store/apps/details?id=com.sockslitepro.net"
 }
