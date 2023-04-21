@@ -2,7 +2,7 @@
     "Aviso": true,
     "HtmlSuport": true,
     "MsgAviso": "<p style=\"text-align: center;\">AVISO IMPORTANTE</p><p style=\"text-align: left;\">🟣VIVO - FUNCIONANDO✅</p><p style=\"text-align: left;\">🔵TIM - FUNCIONANDO COM SALDO VALIDO✅</p><p style=\"text-align: left;\">🔴CLARO - EM POUCAS REGIÕES♻️</p><p style=\"text-align: left;\">🟡OI - RELATOS QUE AINDA FUNCIONA♻️</p><p style=\"text-align: left;\">&nbsp;</p><p><span style=\"color: #FEFF00;\">OBS: FIQUEM LIGADOS NAS MENSAGENS DO APLICATIVO E NO NOSSO GRUPO DO TELEGRAM. QUANDO TIVER CONEX&Otilde;ES NOVAS O APP SERA ATUALIZADO IMEDIATAMENTE.⚡️</span></p><p><span style=\"color: #ff6600;\">PARA OS DESINFORMADOS&nbsp;A QUEDA DAS CONEX&Otilde;ES N&Atilde;O &Eacute; UM PROBLEMA DO APLICATIVO, OS USU&Aacute;RIOS PRECISAM AGUARDA SURGIR NOVAS CONEX&Otilde;ES QUE FUNCIONE.</span></p>",
-    "Alert": true,
+    "Alert": false,
     "Image": true,
     "ImgUrl": "https://uploaddeimagens.com.br/images/004/378/326/original/update.jpg",
     "SaveId": true,
