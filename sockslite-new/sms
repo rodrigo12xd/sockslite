@@ -3,6 +3,8 @@
     "ID": 1,
     "SaveId": true,
     "ImageSuport": true,
+    "ImageAltura": 500,
+    "ImageLargura": 700,
     "UrlButtonSuport": false,
     "ButtonCancel": false,
     "SetCancelable": false,
