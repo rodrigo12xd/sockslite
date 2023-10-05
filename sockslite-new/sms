@@ -1,6 +1,6 @@
 {
-    "SMS": false,
-    "ID": 4,
+    "SMS": true,
+    "ID": 5,
     "SaveId": true,
     "ImageSuport": false,
     "ImageAltura": 0,
@@ -14,5 +14,5 @@
     "ButtonConfirmarText": "Assitir Video",
     "ButtonCancelText": "Fechar",
     "ImgUrl": "",
-    "UrlButton": "https://youtube.com/shorts/0IXfE4Z5Hps?si=4zwDi0roHCgsueaO"
+    "UrlButton": "https://streamable.com/pwajnj"
 }
