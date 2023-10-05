@@ -1,18 +1,18 @@
 {
     "SMS": true,
-    "ID": 2,
+    "ID": 3,
     "SaveId": true,
     "ImageSuport": false,
     "ImageAltura": 0,
     "ImageLargura": 0,
     "UrlButtonSuport": false,
-    "ButtonCancel": false,
+    "ButtonCancel": true,
     "SetCancelable": false,
-    "PushNotification": true,
-    "Title": "DICA VIVO",
-    "Text": "Caso a vivo não queira injetar pra conectar, altere as configurações de rede do seu celular para somente (rede 3G), dessa forma as chances se voltar a funcionar são grandes.",
-    "ButtonConfirmarText": "Certo",
+    "PushNotification": false,
+    "Title": "Tutorial Tim Saldo Válido",
+    "Text": "Acabei de postar um video mostrando a como conectar na Tim saldo Válido, configura o vídeo apertando no botao Assitir abaixo. \n\nObs: O mesmo processo vale pra saldo expirado, basta selecionar umas das conexões saldo expirado.",
+    "ButtonConfirmarText": "Assitir Video",
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "https://i.ibb.co/7YGZCrd/IMG-20230910-201035-781.jpg",
-    "UrlButton": ""
+    "ImgUrl": "",
+    "UrlButton": "https://youtube.com/shorts/0IXfE4Z5Hps?si=4zwDi0roHCgsueaO"
 }
