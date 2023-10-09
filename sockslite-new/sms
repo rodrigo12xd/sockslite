@@ -8,7 +8,7 @@
     "UrlButtonSuport": true,
     "ButtonCancel": true,
     "SetCancelable": false,
-    "PushNotification": false,
+    "PushNotification": true,
     "Title": "Tutorial Tim",
     "Text": "Acabei de postar um video mostrando a como conectar na Tim saldo Válido, confira o vídeo apertando no botao Assitir abaixo. <br><br>Obs: O mesmo processo vale pra saldo expirado, basta selecionar umas das conexões saldo expirado.",
     "ButtonConfirmarText": "Assitir Video",
