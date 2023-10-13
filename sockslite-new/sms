@@ -1,5 +1,5 @@
 {
-    "SMS": false,
+    "SMS": true,
     "ID": 1,
     "SaveId": true,
     "ImageSuport": false,
@@ -14,5 +14,5 @@
     "ButtonConfirmarText": "Assitir Video",
     "ButtonCancelText": "Fechar",
     "ImgUrl": "",
-    "UrlButton": "https://streamable.com/yxoyg7"
+    "UrlButton": "https://streamable.com/pwajnj"
 }
