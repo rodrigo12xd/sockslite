@@ -6,7 +6,7 @@
     "ImageAltura": 0,
     "ImageLargura": 0,
     "UrlButtonSuport": true,
-    "UrlWebView": true,
+    "UrlWebView": false,
     "ButtonCancel": true,
     "SetCancelable": false,
     "PushNotification": false,
