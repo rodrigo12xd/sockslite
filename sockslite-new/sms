@@ -1,19 +1,19 @@
 {
     "SMS": true,
-    "ID": 1,
+    "ID": 2,
     "SaveId": true,
-    "ImageSuport": false,
+    "ImageSuport": true,
     "ImageAltura": 0,
     "ImageLargura": 0,
-    "UrlButtonSuport": true,
+    "UrlButtonSuport": false,
     "UrlWebView": false,
-    "ButtonCancel": true,
+    "ButtonCancel": false,
     "SetCancelable": false,
     "PushNotification": false,
-    "Title": "Tutorial Tim",
-    "Text": "Acabei de postar um video mostrando a como conectar na Tim saldo Válido, confira o vídeo apertando no botao Assitir abaixo. <br><br>Obs: O mesmo processo vale pra saldo expirado, basta selecionar umas das conexões saldo expirado.",
-    "ButtonConfirmarText": "Assitir Video",
+    "Title": "Aviso Usuários Tim",
+    "Text": "Tim parou de funcionar em varias regiões, por isso é fundamental que teste as opções disponíveis no app, alternando os testes com modo avião.",
+    "ButtonConfirmarText": "Certo",
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "",
-    "UrlButton": "https://streamable.com/pwajnj"
+    "ImgUrl": "https://i.ibb.co/KWGXPKN/Picsart-23-11-20-23-08-20-775.jpg",
+    "UrlButton": ""
 }
