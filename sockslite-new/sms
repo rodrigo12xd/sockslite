@@ -1,19 +1,19 @@
 {
-    "SMS": false,
-    "ID": 2,
+    "SMS": true,
+    "ID": 3,
     "SaveId": true,
     "ImageSuport": true,
     "ImageAltura": 0,
     "ImageLargura": 0,
-    "UrlButtonSuport": false,
+    "UrlButtonSuport": true,
     "UrlWebView": false,
-    "ButtonCancel": false,
+    "ButtonCancel": true,
     "SetCancelable": false,
     "PushNotification": false,
-    "Title": "Aviso Usuários Tim",
-    "Text": "Tim parou de funcionar em varias regiões, por isso é fundamental que teste as opções disponíveis no app, alternando os testes com modo avião.",
-    "ButtonConfirmarText": "Certo",
+    "Title": "Servidores VPS",
+    "Text": "🚀 Potencialize seu negócio com nossa oferta imperdível de Servidores VPS! Desempenho e confiabilidade incomparáveis. Garanta agora o seu espaço na nuvem para o sucesso online! 💻🌐",
+    "ButtonConfirmarText": "Entrar em Contato",
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "https://i.ibb.co/KWGXPKN/Picsart-23-11-20-23-08-20-775.jpg",
-    "UrlButton": ""
+    "ImgUrl": "https://i.ibb.co/myNGQgD/IMG-20231208-133821-640.jpg",
+    "UrlButton": "https://wa.me/5527996595793"
 }
