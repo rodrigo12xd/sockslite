@@ -8,7 +8,7 @@
     "UrlButtonSuport": true,
     "UrlWebView": false,
     "ButtonCancel": true,
-    "SetCancelable": false,
+    "SetCancelable": true,
     "PushNotification": false,
     "Title": "Servidores VPS",
     "Text": "🚀 Potencialize seu negócio com oferta imperdível de Servidores VPS! Desempenho e confiabilidade incomparáveis. Garanta agora o seu espaço na nuvem para o sucesso online! 💻🌐",
