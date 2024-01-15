@@ -12,7 +12,7 @@
     "PushNotification": false,
     "Title": "Sorteio",
     "Text": "Tem sorteio rolando no Instagram oficial do aplicativo, entra la e participe.",
-    "ButtonConfirmarText": "Entrar no Sorteio"
+    "ButtonConfirmarText": "Entrar no Sorteio",
     "ButtonCancelText": "Fechar",
     "ImgUrl": "https://ibb.co/bF7SHqz",
     "UrlButton": "https://www.instagram.com/p/C2GWq8wP1xS/?igsh=cmNwZzlqOXNubndo"
