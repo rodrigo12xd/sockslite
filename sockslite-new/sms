@@ -1,6 +1,6 @@
 {
-    "SMS": false,
-    "ID": 3,
+    "SMS": true,
+    "ID": 4,
     "SaveId": true,
     "ImageSuport": true,
     "ImageAltura": 0,
@@ -10,10 +10,10 @@
     "ButtonCancel": true,
     "SetCancelable": true,
     "PushNotification": false,
-    "Title": "Servidores VPS",
-    "Text": "🚀 Potencialize seu negócio com oferta imperdível de Servidores VPS! Desempenho e confiabilidade incomparáveis. Garanta agora o seu espaço na nuvem para o sucesso online! 💻🌐",
-    "ButtonConfirmarText": "Entrar em Contato",
+    "Title": "Sorteio",
+    "Text": "Tem sorteio rolando no Instagram oficial do aplicativo, entra la e participe.",
+    "ButtonConfirmarText": "Entrar no Sorteio"
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "https://i.ibb.co/myNGQgD/IMG-20231208-133821-640.jpg",
-    "UrlButton": "https://wa.me/5527996595793"
+    "ImgUrl": "https://ibb.co/bF7SHqz",
+    "UrlButton": "https://www.instagram.com/p/C2GWq8wP1xS/?igsh=cmNwZzlqOXNubndo"
 }
