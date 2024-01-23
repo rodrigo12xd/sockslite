@@ -1,6 +1,6 @@
 {
-    "SMS": false,
-    "ID": 5,
+    "SMS": true,
+    "ID": 6,
     "SaveId": true,
     "ImageSuport": true,
     "ImageAltura": 0,
@@ -10,10 +10,10 @@
     "ButtonCancel": true,
     "SetCancelable": true,
     "PushNotification": false,
-    "Title": "Sorteio",
-    "Text": "Domingo é o sorteio, corra e participe.",
+    "Title": "Novo Sorteio",
+    "Text": "Um novo sorteio esta rolando no Instagram, premio foi aumentado para um pix de 200 reais. Não perca tempo e participe.",
     "ButtonConfirmarText": "Entrar no Sorteio",
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "https://i.ibb.co/2S5D8mg/IMG-20240114-203417-823.jpg",
-    "UrlButton": "https://www.instagram.com/p/C2GWq8wP1xS/?igsh=cmNwZzlqOXNubndo"
+    "ImgUrl": "https://i.ibb.co/8cvHqPf/IMG-20240123-133110.jpg",
+    "UrlButton": "https://www.instagram.com/p/C2YdQdDNn1z/?igsh=MzFyeHozOTlhZXlt"
 }
