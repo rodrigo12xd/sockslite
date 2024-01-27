@@ -1,6 +1,6 @@
 {
     "SMS": true,
-    "ID": 7,
+    "ID": 8,
     "SaveId": true,
     "ImageSuport": true,
     "ImageAltura": 0,
@@ -10,8 +10,8 @@
     "ButtonCancel": true,
     "SetCancelable": true,
     "PushNotification": false,
-    "Title": "Novo Sorteio",
-    "Text": "Um novo sorteio esta rolando no Instagram, premio foi aumentado para um pix de 200 reais. Não perca tempo e participe.",
+    "Title": "Sorteio",
+    "Text": "Domingo é o sorteio, se voçê ainda não esta participando, corra pra participar que ainda da tempo",
     "ButtonConfirmarText": "Entrar no Sorteio",
     "ButtonCancelText": "Fechar",
     "ImgUrl": "https://i.ibb.co/8cvHqPf/IMG-20240123-133110.jpg",
