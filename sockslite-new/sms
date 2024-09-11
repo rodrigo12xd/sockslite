@@ -1,19 +1,19 @@
 {
     "SMS": true,
-    "ID": 1,
+    "ID": 2,
     "SaveId": true,
     "ImageSuport": true,
     "ImageAltura": 0,
     "ImageLargura": 0,
-    "UrlButtonSuport": false,
+    "UrlButtonSuport": true,
     "UrlWebView": false,
-    "ButtonCancel": false,
-    "SetCancelable": true,
-    "PushNotification": true,
-    "Title": "Em breve",
-    "Text": "Em breve lançamento do nosso BOT de números descartáveis<br><br>Proteja sua privacidade recebendo SMS de verificação sem expor seu número real. <br><br>Evite spam e mantenha sua segurança online de forma simples e anônima! <br><br>🌍🔒Fique atento para ser um dos primeiros a acessar vantagens exclusivas! 🚀",
+    "ButtonCancel": true,
+    "SetCancelable": false,
+    "PushNotification": false,
+    "Title": "Mega Lançamento",
+    "Text": "<b>🚀 Descubra o Poder do GhostSMS! 🕵️‍♂️💨</b><br>Quer privacidade e segurança ao receber códigos de confirmação online? 📱💬 Com o <b>GhostSMS</b>, você gera <b>números descartáveis</b> para receber SMS de forma rápida, fácil e anônima!<br>🔒 <b>Proteja seus dados pessoais</b> e use nossos números para se cadastrar em qualquer site ou serviço sem preocupações!<br>👉 Clique agora em <b>Saiba Mais</b> e experimente o <b>GhostSMS</b>! O melhor preço e a solução mais prática para receber SMS online!"
     "ButtonConfirmarText": "Certo",
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "",
-    "UrlButton": ""
+    "ImgUrl": "https://i.ibb.co/Kr0h1cw/IMG-20240911-094731-235.jpg",
+    "UrlButton": "https://ghostsms.store/"
 }
