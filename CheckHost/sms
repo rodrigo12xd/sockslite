@@ -1,7 +1,7 @@
 {
     "SMS": true,
     "ID": 0,
-    "SaveId": true,
+    "SaveId": false,
     "ImageSuport": true,
     "ImageAltura": 0,
     "ImageLargura": 0,
