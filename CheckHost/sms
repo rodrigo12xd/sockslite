@@ -8,7 +8,7 @@
     "UrlButtonSuport": true,
     "ButtonCancel": true,
     "SetCancelable": false,
-    "PushNotification": false,
+    "PushNotification": true,
     "Title": "NÚMEROS DESCARTAVEIS",
     "Text": "<b>🚀 Descubra o Poder do GhostSMS! 🕵️‍♂️💨</b><br>Quer privacidade e segurança ao receber códigos de confirmação online? 📱💬 Com o <b>GhostSMS</b>, você gera <b>números descartáveis</b> para receber SMS de forma rápida, fácil e anônima!<br><br>🔒 <b>Proteja seus dados pessoais</b> e use nossos números para se cadastrar em qualquer site ou serviço sem preocupações!<br><br>👉 Clique agora em <b>Saiba Mais</b> e experimente o <b>GhostSMS</b>! O melhor preço e a solução mais prática para receber SMS online!",
     "ButtonConfirmarText": "Saiba Mais",
