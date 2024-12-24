@@ -11,7 +11,7 @@
     "SetCancelable": true,
     "PushNotification": false,
     "Title": "Oferta por tempo limitado",
-    "Text": "<p>Acesso a VPN Premium sem anúncios e sem tempo limite com melhor preço do mercado.</p><br><p>Operadoras disponíveis:</p><p>🟣VIVO (Todos DDD's)</p><p>🔵TIM (Todos DDD's)</p><br><p>Teste de 2 horas para quem tiver interesse em adquirir.</p><br><p>Aperte no botão abaixo e entre em contato.</p>",
+    "Text": "<p>Acesso a VPN Premium sem anúncios e sem tempo limite com melhor preço do mercado.</p><p>Operadoras disponíveis:</p><p>🟣VIVO (Todos DDD's)</p><p>🔵TIM (Todos DDD's)</p><p><br>Teste de 2 horas para quem tiver interesse em adquirir.</p><p><br>Aperte no botão abaixo e entre em contato.</p>",
     "ButtonConfirmarText": "Entrar em Contato",
     "ButtonCancelText": "Fechar",
     "ImgUrl": "https://i.ibb.co/SJZKhY8/Screenshot-20241216-185533-Socks-Lite-Pro.jpg",
