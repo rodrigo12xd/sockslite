@@ -1,6 +1,6 @@
 {
-    "SMS": false,
-    "ID": 16,
+    "SMS": true,
+    "ID": 2,
     "SaveId": true,
     "ImageSuport": false,
     "ImageAltura": 0,
