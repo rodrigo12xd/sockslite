@@ -1,19 +1,19 @@
 {
-    "SMS": false,
-    "ID": 3,
+    "SMS": true,
+    "ID": 5,
     "SaveId": true,
-    "ImageSuport": false,
+    "ImageSuport": true,
     "ImageAltura": 0,
     "ImageLargura": 0,
     "UrlButtonSuport": true,
     "UrlWebView": false,
     "ButtonCancel": true,
-    "SetCancelable": true,
+    "SetCancelable": false,
     "PushNotification": false,
-    "Title": "Oferta por tempo limitado",
-    "Text": "<p>Acesso a VPN Premium sem anúncios e sem tempo limite com melhor preço do mercado.</p><p>Operadoras disponíveis:</p><p>🟣VIVO (Todos DDD's)</p><p>🔵TIM (Todos DDD's)</p><p><br>Teste de 2 horas para quem tiver interesse em adquirir.</p><p><br>Aperte no botão abaixo e entre em contato.</p>",
-    "ButtonConfirmarText": "Entrar em Contato",
+    "Title": "NÚMEROS DESCARTAVEIS",
+    "Text": "<b>🚀 Descubra o Poder do GhostSMS! 🕵️‍♂️💨</b><br>Quer privacidade e segurança ao receber códigos de confirmação online? 📱💬 Com o <b>GhostSMS</b>, você gera <b>números descartáveis</b> para receber SMS de forma rápida, fácil e anônima!<br><br>🔒 <b>Proteja seus dados pessoais</b> e use nossos números para se cadastrar em qualquer site ou serviço sem preocupações!<br><br>👉 Clique agora em <b>Saiba Mais</b> e experimente o <b>GhostSMS</b>! O melhor preço e a solução mais prática para receber SMS online!",
+    "ButtonConfirmarText": "Saiba Mais",
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "https://i.ibb.co/SJZKhY8/Screenshot-20241216-185533-Socks-Lite-Pro.jpg",
-    "UrlButton": "https://wa.me/5579999569057?text=Gostaria%20de%20conhecer%20o%20CONECTA4G"
+    "ImgUrl": "https://i.ibb.co/Kr0h1cw/IMG-20240911-094731-235.jpg",
+    "UrlButton": "https://ghostsms.store/"
 }
