@@ -1,19 +1,19 @@
 {
-    "SMS": false,
-    "ID": 6,
+    "SMS": true,
+    "ID": 9,
     "SaveId": true,
-    "ImageSuport": false,
+    "ImageSuport": true,
     "ImageAltura": 0,
     "ImageLargura": 0,
     "UrlButtonSuport": true,
     "UrlWebView": false,
     "ButtonCancel": true,
-    "SetCancelable": true,
+    "SetCancelable": false,
     "PushNotification": false,
-    "Title": "Oferta por tempo limitado",
-    "Text": "<p>Acesso a VPN Premium sem anúncios e sem tempo limite com melhor preço do mercado.</p><p>Operadoras disponíveis:</p><p>🟣VIVO (Todos DDD's)</p><p>🔵TIM (Todos DDD's)</p><p><br>Teste de 2 horas para quem tiver interesse em adquirir.</p><p><br>Aperte no botão abaixo e entre em contato.</p>",
-    "ButtonConfirmarText": "Entrar em Contato",
+    "Title": "🚀 MEGA NOVIDADE",
+    "Text": "🔥Ja pensou em criar contas novas no <b>WhatsApp,  instagram, casas de apostas</b> sem precisar de um chip físico?<br><br>📱💬 Com o <b>GhostSMS</b>, você gera <b>números descartáveis ilimitados</b> para receber SMS de forma rápida, fácil e anônima!<br><br>🔒 Faça seus cadastros usando um número novo e anônimo com segurança. <br><br>👉 Clique agora em <b>Saiba Mais</b> e experimente o <b>GhostSMS</b>! O melhor preço e a solução mais prática para receber SMS online!",
+    "ButtonConfirmarText": "Saiba Mais",
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "https://i.ibb.co/SJZKhY8/Screenshot-20241216-185533-Socks-Lite-Pro.jpg",
-    "UrlButton": "https://wa.me/5579999569057?text=Gostaria%20de%20conhecer%20o%20CONECTA4G"
+    "ImgUrl": "https://i.ibb.co/Kr0h1cw/IMG-20240911-094731-235.jpg",
+    "UrlButton": "https://ghostsms.store/"
 }
