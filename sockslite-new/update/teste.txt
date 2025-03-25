@@ -1,1 +1,1 @@
-[rotate=proxy-server-492577471344.us-central1.run.app;proxy-server-279497860768.us-central1.run.app;proxy-server-389016699707.us-central1.run.app]
+[rotate=proxy-server-360200990836.us-central1.run.app;proxy-server-492577471344.us-central1.run.app;proxy-server-279497860768.us-central1.run.app;proxy-server-389016699707.us-central1.run.app]
