@@ -1,5 +1,5 @@
 {
-    "SMS": true,
+    "SMS": false,
     "ID": 15,
     "SaveId": true,
     "ImageSuport": false,
@@ -11,9 +11,9 @@
     "SetCancelable": false,
     "PushNotification": false,
     "Title": "🚀 VPN PREMIUM",
-    "Text": "🔥 VPN PREMIUM E SEM TEMPO. FUNCIONANDO VIVO E TIM. APERTE EM CONTATO E PEÇA UM TESTE PARA CONHECER O SERVIÇO. ",
+    "Text": "🔥 VPN PREMIUM E SEM TEMPO. FUNCIONANDO VIVO E TIM. APERTE EM CONTATO E PEÇA UM TESTE PARA CONHECER O SERVIÇO.",
     "ButtonConfirmarText": "Contato",
     "ButtonCancelText": "Fechar",
     "ImgUrl": "",
-    "UrlButton": "https://api.whatsapp.com/send?phone=+5579999569057&text=Oi,%20gostaria%20de%20conhecer%20a%20VPN%20da%20CONECTA4G""
+    "UrlButton": "https://api.whatsapp.com/send?phone=+5579999569057&text=Oi,%20gostaria%20de%20conhecer%20a%20VPN%20da%20CONECTA4G"
 }
