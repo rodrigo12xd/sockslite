@@ -1,8 +1,8 @@
 {
-    "SMS": false,
-    "ID": 15,
+    "SMS": true,
+    "ID": 16,
     "SaveId": true,
-    "ImageSuport": false,
+    "ImageSuport": true,
     "ImageAltura": 0,
     "ImageLargura": 0,
     "UrlButtonSuport": true,
@@ -10,10 +10,10 @@
     "ButtonCancel": true,
     "SetCancelable": false,
     "PushNotification": false,
-    "Title": "🚀 VPN PREMIUM",
-    "Text": "🔥 VPN PREMIUM E SEM TEMPO. FUNCIONANDO VIVO E TIM. APERTE EM CONTATO E PEÇA UM TESTE PARA CONHECER O SERVIÇO.",
-    "ButtonConfirmarText": "Contato",
+    "Title": "🚀 MEGA NOVIDADE",
+    "Text": "🔥Ja pensou em criar contas novas no <b>WhatsApp,  instagram, casas de apostas</b> sem precisar de um chip físico?<br><br>📱💬 Com o <b>GhostSMS</b>, você gera <b>números descartáveis ilimitados</b> para receber SMS de forma rápida, fácil e anônima!<br><br>🔒 Faça seus cadastros usando um número novo e anônimo com segurança. <br><br>👉 Clique agora em <b>Saiba Mais</b> e experimente o <b>GhostSMS</b>! O melhor preço e a solução mais prática para receber SMS online!",
+    "ButtonConfirmarText": "Saiba Mais",
     "ButtonCancelText": "Fechar",
-    "ImgUrl": "",
-    "UrlButton": "https://api.whatsapp.com/send?phone=+5579999569057&text=Oi,%20gostaria%20de%20conhecer%20a%20VPN%20da%20CONECTA4G"
+    "ImgUrl": "https://i.ibb.co/Kr0h1cw/IMG-20240911-094731-235.jpg",
+    "UrlButton": "https://ghostsms.store/"
 }
