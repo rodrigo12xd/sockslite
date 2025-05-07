@@ -1,5 +1,5 @@
 {
-    "SMS": true,
+    "SMS": false,
     "ID": 22,
     "SaveId": true,
     "ImageSuport": false,
