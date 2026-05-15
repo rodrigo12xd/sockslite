@@ -1,397 +1,784 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-<meta charset='utf-8'>
-<meta name='viewport' content='width=device-width'>
-<title>SocksLite Pro - Termos & Política de Privacidade</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0d12">
+<title>SocksLite Pro — Termos & Política de Privacidade</title>
 
 <style>
-body{
-    margin:25px auto;
-    max-width:800px;
-    font-family:Arial;
-    padding:10px;
-    line-height:1.6;
-}
-</style>
+  :root{
+    --bg:#0b0d12;
+    --bg-elev:#12151c;
+    --bg-soft:#171b24;
+    --border:#222836;
+    --text:#e6e9ef;
+    --text-dim:#9aa3b2;
+    --text-mute:#6b7382;
+    --accent:#7aa2ff;
+    --accent-soft:rgba(122,162,255,.12);
+    --divider:#1f2430;
+    --radius:14px;
+    --radius-sm:10px;
+  }
 
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+
+  html,body{
+    margin:0;padding:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:16px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  .wrap{
+    max-width:680px;
+    margin:0 auto;
+    padding:20px 18px 80px;
+    padding-top:calc(20px + env(safe-area-inset-top));
+    padding-bottom:calc(80px + env(safe-area-inset-bottom));
+  }
+
+  /* Header / language toggle */
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:22px;
+  }
+  .brand{
+    font-size:13px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--text-mute);
+    font-weight:600;
+  }
+  .lang{
+    display:inline-flex;
+    background:var(--bg-elev);
+    border:1px solid var(--border);
+    border-radius:999px;
+    padding:3px;
+  }
+  .lang button{
+    appearance:none;
+    background:transparent;
+    border:0;
+    color:var(--text-dim);
+    padding:6px 14px;
+    border-radius:999px;
+    font-size:13px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all .18s ease;
+    font-family:inherit;
+  }
+  .lang button.active{
+    background:var(--accent-soft);
+    color:var(--accent);
+  }
+
+  /* Titles */
+  h1{
+    font-size:28px;
+    line-height:1.25;
+    margin:6px 0 8px;
+    letter-spacing:-.01em;
+    font-weight:700;
+  }
+  h2{
+    font-size:20px;
+    line-height:1.3;
+    margin:36px 0 10px;
+    letter-spacing:-.01em;
+    font-weight:700;
+    color:var(--text);
+  }
+  h3{
+    font-size:15px;
+    margin:22px 0 8px;
+    color:var(--accent);
+    font-weight:600;
+    letter-spacing:.01em;
+  }
+
+  .lead{
+    color:var(--text-dim);
+    font-size:15px;
+    margin:0 0 8px;
+  }
+
+  /* Card sections */
+  .card{
+    background:var(--bg-elev);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:18px 18px 4px;
+    margin:18px 0;
+  }
+
+  p{margin:0 0 14px;color:var(--text)}
+  p.muted{color:var(--text-dim);font-size:14.5px}
+
+  ul{
+    margin:0 0 16px;
+    padding-left:0;
+    list-style:none;
+  }
+  ul li{
+    position:relative;
+    padding:6px 0 6px 20px;
+    color:var(--text);
+    font-size:15px;
+  }
+  ul li::before{
+    content:"";
+    position:absolute;
+    left:4px;top:14px;
+    width:6px;height:6px;
+    border-radius:50%;
+    background:var(--accent);
+    opacity:.7;
+  }
+
+  a{color:var(--accent);text-decoration:none;word-break:break-word}
+  a:hover{text-decoration:underline}
+
+  strong{color:var(--text);font-weight:600}
+
+  hr{
+    border:0;
+    height:1px;
+    background:var(--divider);
+    margin:36px 0;
+  }
+
+  /* Section divider used between Terms / Privacy */
+  .section-break{
+    text-align:center;
+    margin:42px 0 8px;
+    color:var(--text-mute);
+    font-size:12px;
+    letter-spacing:.25em;
+    text-transform:uppercase;
+  }
+  .section-break::before,
+  .section-break::after{
+    content:"";
+    display:inline-block;
+    width:30px;height:1px;
+    background:var(--divider);
+    vertical-align:middle;
+    margin:0 12px;
+  }
+
+  /* Email highlight */
+  .email{
+    display:inline-block;
+    background:var(--bg-soft);
+    border:1px solid var(--border);
+    color:var(--text);
+    padding:8px 14px;
+    border-radius:var(--radius-sm);
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:14px;
+  }
+
+  /* Last updated footer */
+  .updated{
+    margin-top:48px;
+    padding:16px 18px;
+    background:var(--bg-elev);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    flex-wrap:wrap;
+  }
+  .updated .label{
+    color:var(--text-mute);
+    font-size:12px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    font-weight:600;
+  }
+  .updated .date{
+    color:var(--text);
+    font-size:15px;
+    font-weight:600;
+    font-variant-numeric:tabular-nums;
+  }
+
+  /* Mobile tweaks */
+  @media (max-width:480px){
+    .wrap{padding:16px 14px 70px}
+    h1{font-size:24px}
+    h2{font-size:18px;margin-top:30px}
+    .card{padding:16px 16px 2px}
+    body{font-size:15.5px}
+    ul li{font-size:14.5px}
+  }
+
+  /* Light theme (only if user explicitly toggles) */
+  body.light{
+    --bg:#f7f8fb;
+    --bg-elev:#ffffff;
+    --bg-soft:#f1f3f8;
+    --border:#e3e6ed;
+    --text:#1a1d24;
+    --text-dim:#525a6a;
+    --text-mute:#7a8294;
+    --accent:#3563e9;
+    --accent-soft:rgba(53,99,233,.08);
+    --divider:#e6e9ef;
+  }
+</style>
 </head>
 
 <body>
-
-<p><span style="font-size:22px"><strong>Termos e Condições</strong></span></p>
-
-<p>
-Estes Termos e Condições (“Termos”) regulam o uso do aplicativo SocksLite (“Aplicativo”),
-desenvolvido e disponibilizado pela KiritoProjects (“Desenvolvedor”).
-Ao utilizar o Aplicativo, você concorda integralmente com estes Termos.
-Caso não concorde com qualquer disposição aqui presente, não utilize o Aplicativo.
-</p>
-
-<p><strong>1. Propriedade Intelectual</strong></p>
-
-<p>
-Todo o conteúdo, marcas, logotipos, códigos, funcionalidades e elementos relacionados ao Aplicativo
-são de propriedade exclusiva da KiritoProjects,
-protegidos pelas legislações aplicáveis de propriedade intelectual.
-</p>
-
-<p>
-É proibido copiar, modificar, distribuir, vender,
-descompilar, realizar engenharia reversa
-ou criar versões derivadas do Aplicativo
-sem autorização prévia e expressa.
-</p>
-
-<p><strong>2. Uso Permitido</strong></p>
-
-<p>
-O usuário compromete-se a utilizar o Aplicativo
-apenas para finalidades lícitas,
-respeitando a legislação vigente.
-</p>
-
-<p>
-É expressamente proibido utilizar o Aplicativo para:
-</p>
-
-<ul>
-<li>fraudes ou golpes;</li>
-<li>acesso não autorizado a sistemas;</li>
-<li>distribuição de conteúdo ilegal;</li>
-<li>atividades que violem direitos de terceiros;</li>
-<li>tentativas de comprometer a segurança da plataforma.</li>
-</ul>
-
-<p>
-O descumprimento destas regras poderá resultar
-na suspensão ou encerramento da conta,
-além da adoção das medidas legais cabíveis.
-</p>
-
-<p><strong>3. Modificações e Disponibilidade do Serviço</strong></p>
-
-<p>
-A KiritoProjects poderá modificar,
-atualizar, suspender ou encerrar o Aplicativo,
-parcial ou integralmente,
-a qualquer momento e sem aviso prévio.
-</p>
-
-<p>
-Embora sejam empregados esforços razoáveis
-para manter o serviço disponível e funcional,
-não garantimos disponibilidade contínua,
-ausência de falhas ou funcionamento ininterrupto.
-</p>
-
-<p><strong>4. Limitação de Responsabilidade</strong></p>
-
-<p>
-A KiritoProjects emprega esforços razoáveis
-para manter o Aplicativo seguro,
-estável e funcional.
-No entanto, o serviço é disponibilizado “como está”
-e poderá apresentar interrupções,
-falhas técnicas,
-indisponibilidade temporária
-ou limitações decorrentes de fatores externos.
-</p>
-
-<p>
-A KiritoProjects não garante funcionamento ininterrupto,
-livre de erros
-ou totalmente compatível com todos os dispositivos e redes.
-</p>
-
-<p>
-Na máxima extensão permitida pela legislação aplicável,
-a KiritoProjects não será responsável por:
-</p>
-
-<ul>
-<li>falhas causadas por terceiros, provedores, operadoras ou serviços externos;</li>
-<li>uso indevido ou não autorizado do Aplicativo;</li>
-<li>danos indiretos, incidentais ou consequenciais;</li>
-<li>perda de lucros, perda de receitas ou perda de dados decorrentes do uso do serviço;</li>
-<li>problemas decorrentes de modificações no dispositivo do usuário, incluindo root ou jailbreak.</li>
-</ul>
-
-<p>
-Nada nestes Termos exclui responsabilidades
-que não possam ser limitadas
-ou excluídas nos termos da legislação aplicável.
-</p>
-
-<p><strong>5. Serviços de Terceiros</strong></p>
-
-<p>
-O Aplicativo poderá utilizar serviços de terceiros
-para funcionamento, autenticação,
-análise, publicidade e estabilidade da plataforma.
-</p>
-
-<p>
-Esses serviços possuem políticas próprias de privacidade
-e tratamento de dados:
-</p>
-
-<ul>
-
-<li>
-<strong>Appodeal:</strong>
-<a href="https://appodeal.com/terms-of-service/">
-https://appodeal.com/terms-of-service/
-</a>
-</li>
-
-<li>
-<strong>Google AdMob:</strong>
-<a href="https://policies.google.com/terms">
-https://policies.google.com/terms
-</a>
-</li>
-
-<li>
-<strong>Google Play Services:</strong>
-<a href="https://policies.google.com/terms">
-https://policies.google.com/terms
-</a>
-</li>
-
-<li>
-<strong>Firebase:</strong>
-<a href="https://firebase.google.com/terms/crashlytics">
-https://firebase.google.com/terms/crashlytics
-</a>
-</li>
-
-<li>
-<strong>Google Privacy & Terms:</strong>
-<a href="https://policies.google.com/privacy">
-https://policies.google.com/privacy
-</a>
-</li>
-
-</ul>
-
-<p><strong>6. Cooperação com Autoridades</strong></p>
-
-<p>
-A KiritoProjects poderá cooperar com autoridades competentes
-mediante requisição legal válida,
-ordem judicial
-ou obrigação prevista em lei,
-observando os limites estabelecidos pela legislação aplicável,
-incluindo a Lei Geral de Proteção de Dados (LGPD)
-e o Marco Civil da Internet.
-</p>
-
-<p><strong>7. Alterações dos Termos</strong></p>
-
-<p>
-Os presentes Termos poderão ser alterados periodicamente.
-As alterações entrarão em vigor após sua publicação nesta página.
-</p>
-
-<p>
-É responsabilidade do usuário revisar os Termos regularmente.
-</p>
-
-<hr>
-
-<p><span style="font-size:22px"><strong>Política de Privacidade</strong></span></p>
-
-<p>
-Esta Política de Privacidade descreve como a KiritoProjects coleta,
-utiliza, armazena e protege os dados relacionados ao uso do aplicativo SocksLite,
-em conformidade com a Lei Geral de Proteção de Dados
-(Lei nº 13.709/2018)
-e o Marco Civil da Internet
-(Lei nº 12.965/2014).
-</p>
-
-<p><strong>1. Dados Coletados</strong></p>
-
-<p>
-Para funcionamento do serviço,
-autenticação de usuários,
-segurança da plataforma
-e prevenção a abusos,
-o Aplicativo poderá coletar dados técnicos e operacionais,
-incluindo:
-</p>
-
-<ul>
-<li>endereço IP utilizado na conexão;</li>
-<li>data e hora de início e término da sessão;</li>
-<li>duração da conexão;</li>
-<li>identificadores técnicos do dispositivo;</li>
-<li>modelo do aparelho e sistema operacional;</li>
-<li>informações de diagnóstico e falhas;</li>
-<li>logs de autenticação e funcionamento do aplicativo;</li>
-<li>nome da conta Google utilizada para autenticação;</li>
-<li>endereço de e-mail da conta Google;</li>
-<li>foto ou imagem de perfil vinculada à conta Google.</li>
-</ul>
-
-<p>
-Os dados da conta Google são utilizados exclusivamente para:
-</p>
-
-<ul>
-<li>autenticação e identificação do usuário;</li>
-<li>gerenciamento da conta;</li>
-<li>segurança e prevenção a acessos não autorizados;</li>
-<li>funcionamento adequado dos recursos vinculados ao login.</li>
-</ul>
-
-<p>
-Ao utilizar o login com Google,
-o usuário autoriza o compartilhamento dessas informações
-pelo Google com o Aplicativo,
-conforme as permissões concedidas durante a autenticação.
-</p>
-
-<p>
-O SocksLite NÃO monitora,
-armazena ou analisa:
-</p>
-
-<ul>
-<li>conteúdo trafegado;</li>
-<li>histórico de navegação;</li>
-<li>mensagens;</li>
-<li>sites acessados;</li>
-<li>arquivos transmitidos pelo usuário.</li>
-</ul>
-
-<p><strong>2. Finalidade do Tratamento de Dados</strong></p>
-
-<p>
-Os dados coletados poderão ser utilizados para:
-</p>
-
-<ul>
-<li>fornecer e manter o funcionamento do serviço;</li>
-<li>garantir segurança e estabilidade da plataforma;</li>
-<li>prevenir fraudes, abusos e acessos indevidos;</li>
-<li>cumprir obrigações legais e regulatórias;</li>
-<li>realizar análises técnicas e melhorias no aplicativo.</li>
-</ul>
-
-<p><strong>3. Base Legal</strong></p>
-
-<p>
-O tratamento dos dados poderá ocorrer com fundamento:
-</p>
-
-<ul>
-<li>na execução do serviço solicitado pelo usuário;</li>
-<li>no cumprimento de obrigação legal;</li>
-<li>no legítimo interesse relacionado à segurança da plataforma;</li>
-<li>na prevenção à fraude e uso indevido.</li>
-</ul>
-
-<p><strong>4. Retenção de Logs e Registros</strong></p>
-
-<p>
-Os registros técnicos e logs de acesso
-serão armazenados pelo prazo máximo de até 6 (seis) meses,
-podendo ser preservados por período superior
-exclusivamente nos casos previstos em lei,
-mediante ordem judicial,
-requisição legal válida
-ou necessidade de preservação para investigação de atividades ilícitas.
-</p>
-
-<p>
-A retenção desses dados ocorre para:
-</p>
-
-<ul>
-<li>segurança da plataforma;</li>
-<li>prevenção a fraudes e abusos;</li>
-<li>investigação de atividades ilícitas;</li>
-<li>cumprimento de obrigações legais;</li>
-<li>cooperação com autoridades competentes.</li>
-</ul>
-
-<p>
-Mesmo em caso de solicitação de exclusão,
-determinados registros poderão ser mantidos
-quando necessários para cumprimento de obrigação legal,
-exercício regular de direitos,
-preservação de evidências
-ou atendimento de requisições judiciais e administrativas.
-</p>
-
-<p><strong>5. Compartilhamento de Dados</strong></p>
-
-<p>
-Os dados poderão ser compartilhados apenas:
-</p>
-
-<ul>
-<li>com serviços essenciais para funcionamento do Aplicativo;</li>
-<li>para cumprimento de obrigação legal;</li>
-<li>mediante ordem judicial ou requisição legal válida;</li>
-<li>para proteção dos direitos e segurança da plataforma.</li>
-</ul>
-
-<p>
-A KiritoProjects não comercializa dados pessoais dos usuários.
-</p>
-
-<p><strong>6. Segurança das Informações</strong></p>
-
-<p>
-São adotadas medidas técnicas e organizacionais adequadas
-para proteger os dados contra acessos não autorizados,
-alteração, divulgação ou destruição indevida.
-</p>
-
-<p>
-Entretanto,
-nenhum sistema é completamente seguro,
-não sendo possível garantir segurança absoluta.
-</p>
-
-<p><strong>7. Direitos do Usuário</strong></p>
-
-<p>
-Nos termos da LGPD,
-o usuário poderá solicitar:
-</p>
-
-<ul>
-<li>confirmação da existência de tratamento de dados;</li>
-<li>acesso aos dados pessoais;</li>
-<li>correção de informações incorretas;</li>
-<li>anonimização ou exclusão de dados, quando aplicável;</li>
-<li>informações sobre compartilhamento de dados;</li>
-<li>revogação de consentimento, quando aplicável.</li>
-</ul>
-
-<p>
-Solicitações relacionadas à privacidade e proteção de dados
-podem ser realizadas através do e-mail:
-</p>
-
-<p>
-<strong>socksliteofc@gmail.com</strong>
-</p>
-
-<p><strong>8. Alterações desta Política</strong></p>
-
-<p>
-Esta Política poderá ser atualizada periodicamente.
-Recomendamos que o usuário revise esta página regularmente.
-</p>
-
-<p>
-O uso contínuo do Aplicativo após alterações
-representará concordância com os novos termos.
-</p>
+<div class="wrap">
+
+  <header class="topbar">
+    <span class="brand">SocksLite Pro</span>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="pt" class="active">PT</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
+  </header>
+
+  <!-- ============== PORTUGUÊS ============== -->
+  <main data-lang-content="pt">
+
+    <h1>Termos e Condições</h1>
+    <p class="lead">
+      Estes Termos e Condições (“Termos”) regulam o uso do aplicativo SocksLite (“Aplicativo”),
+      desenvolvido e disponibilizado pela KiritoProjects (“Desenvolvedor”).
+      Ao utilizar o Aplicativo, você concorda integralmente com estes Termos.
+      Caso não concorde com qualquer disposição aqui presente, não utilize o Aplicativo.
+    </p>
+
+    <div class="card">
+      <h3>1. Propriedade Intelectual</h3>
+      <p>
+        Todo o conteúdo, marcas, logotipos, códigos, funcionalidades e elementos relacionados ao Aplicativo
+        são de propriedade exclusiva da KiritoProjects, protegidos pelas legislações aplicáveis de propriedade intelectual.
+      </p>
+      <p>
+        É proibido copiar, modificar, distribuir, vender, descompilar, realizar engenharia reversa
+        ou criar versões derivadas do Aplicativo sem autorização prévia e expressa.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>2. Uso Permitido</h3>
+      <p>
+        O usuário compromete-se a utilizar o Aplicativo apenas para finalidades lícitas, respeitando a legislação vigente.
+      </p>
+      <p>É expressamente proibido utilizar o Aplicativo para:</p>
+      <ul>
+        <li>fraudes ou golpes;</li>
+        <li>acesso não autorizado a sistemas;</li>
+        <li>distribuição de conteúdo ilegal;</li>
+        <li>atividades que violem direitos de terceiros;</li>
+        <li>tentativas de comprometer a segurança da plataforma.</li>
+      </ul>
+      <p>
+        O descumprimento destas regras poderá resultar na suspensão ou encerramento da conta,
+        além da adoção das medidas legais cabíveis.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>3. Modificações e Disponibilidade do Serviço</h3>
+      <p>
+        A KiritoProjects poderá modificar, atualizar, suspender ou encerrar o Aplicativo,
+        parcial ou integralmente, a qualquer momento e sem aviso prévio.
+      </p>
+      <p>
+        Embora sejam empregados esforços razoáveis para manter o serviço disponível e funcional,
+        não garantimos disponibilidade contínua, ausência de falhas ou funcionamento ininterrupto.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>4. Limitação de Responsabilidade</h3>
+      <p>
+        A KiritoProjects emprega esforços razoáveis para manter o Aplicativo seguro, estável e funcional.
+        No entanto, o serviço é disponibilizado “como está” e poderá apresentar interrupções,
+        falhas técnicas, indisponibilidade temporária ou limitações decorrentes de fatores externos.
+      </p>
+      <p>
+        A KiritoProjects não garante funcionamento ininterrupto, livre de erros
+        ou totalmente compatível com todos os dispositivos e redes.
+      </p>
+      <p>Na máxima extensão permitida pela legislação aplicável, a KiritoProjects não será responsável por:</p>
+      <ul>
+        <li>falhas causadas por terceiros, provedores, operadoras ou serviços externos;</li>
+        <li>uso indevido ou não autorizado do Aplicativo;</li>
+        <li>danos indiretos, incidentais ou consequenciais;</li>
+        <li>perda de lucros, perda de receitas ou perda de dados decorrentes do uso do serviço;</li>
+        <li>problemas decorrentes de modificações no dispositivo do usuário, incluindo root ou jailbreak.</li>
+      </ul>
+      <p>
+        Nada nestes Termos exclui responsabilidades que não possam ser limitadas
+        ou excluídas nos termos da legislação aplicável.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>5. Serviços de Terceiros</h3>
+      <p>
+        O Aplicativo poderá utilizar serviços de terceiros para funcionamento, autenticação,
+        análise, publicidade e estabilidade da plataforma.
+      </p>
+      <p>Esses serviços possuem políticas próprias de privacidade e tratamento de dados:</p>
+      <ul>
+        <li><strong>Appodeal:</strong> <a href="https://appodeal.com/terms-of-service/">appodeal.com/terms-of-service</a></li>
+        <li><strong>Google AdMob:</strong> <a href="https://policies.google.com/terms">policies.google.com/terms</a></li>
+        <li><strong>Google Play Services:</strong> <a href="https://policies.google.com/terms">policies.google.com/terms</a></li>
+        <li><strong>Firebase:</strong> <a href="https://firebase.google.com/terms/crashlytics">firebase.google.com/terms/crashlytics</a></li>
+        <li><strong>Google Privacy & Terms:</strong> <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>6. Cooperação com Autoridades</h3>
+      <p>
+        A KiritoProjects poderá cooperar com autoridades competentes mediante requisição legal válida,
+        ordem judicial ou obrigação prevista em lei, observando os limites estabelecidos pela legislação aplicável,
+        incluindo a Lei Geral de Proteção de Dados (LGPD) e o Marco Civil da Internet.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>7. Alterações dos Termos</h3>
+      <p>
+        Os presentes Termos poderão ser alterados periodicamente.
+        As alterações entrarão em vigor após sua publicação nesta página.
+      </p>
+      <p>É responsabilidade do usuário revisar os Termos regularmente.</p>
+    </div>
+
+    <div class="section-break">Política de Privacidade</div>
+
+    <h1>Política de Privacidade</h1>
+    <p class="lead">
+      Esta Política de Privacidade descreve como a KiritoProjects coleta, utiliza, armazena e protege
+      os dados relacionados ao uso do aplicativo SocksLite, em conformidade com a Lei Geral de Proteção
+      de Dados (Lei nº 13.709/2018) e o Marco Civil da Internet (Lei nº 12.965/2014).
+    </p>
+
+    <div class="card">
+      <h3>1. Dados Coletados</h3>
+      <p>
+        Para funcionamento do serviço, autenticação de usuários, segurança da plataforma e prevenção a abusos,
+        o Aplicativo poderá coletar dados técnicos e operacionais, incluindo:
+      </p>
+      <ul>
+        <li>endereço IP utilizado na conexão;</li>
+        <li>data e hora de início e término da sessão;</li>
+        <li>duração da conexão;</li>
+        <li>identificadores técnicos do dispositivo;</li>
+        <li>modelo do aparelho e sistema operacional;</li>
+        <li>informações de diagnóstico e falhas;</li>
+        <li>logs de autenticação e funcionamento do aplicativo;</li>
+        <li>nome da conta Google utilizada para autenticação;</li>
+        <li>endereço de e-mail da conta Google;</li>
+        <li>foto ou imagem de perfil vinculada à conta Google.</li>
+      </ul>
+      <p>Os dados da conta Google são utilizados exclusivamente para:</p>
+      <ul>
+        <li>autenticação e identificação do usuário;</li>
+        <li>gerenciamento da conta;</li>
+        <li>segurança e prevenção a acessos não autorizados;</li>
+        <li>funcionamento adequado dos recursos vinculados ao login.</li>
+      </ul>
+      <p>
+        Ao utilizar o login com Google, o usuário autoriza o compartilhamento dessas informações
+        pelo Google com o Aplicativo, conforme as permissões concedidas durante a autenticação.
+      </p>
+      <p>O SocksLite NÃO monitora, armazena ou analisa:</p>
+      <ul>
+        <li>conteúdo trafegado;</li>
+        <li>histórico de navegação;</li>
+        <li>mensagens;</li>
+        <li>sites acessados;</li>
+        <li>arquivos transmitidos pelo usuário.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>2. Finalidade do Tratamento de Dados</h3>
+      <p>Os dados coletados poderão ser utilizados para:</p>
+      <ul>
+        <li>fornecer e manter o funcionamento do serviço;</li>
+        <li>garantir segurança e estabilidade da plataforma;</li>
+        <li>prevenir fraudes, abusos e acessos indevidos;</li>
+        <li>cumprir obrigações legais e regulatórias;</li>
+        <li>realizar análises técnicas e melhorias no aplicativo.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>3. Base Legal</h3>
+      <p>O tratamento dos dados poderá ocorrer com fundamento:</p>
+      <ul>
+        <li>na execução do serviço solicitado pelo usuário;</li>
+        <li>no cumprimento de obrigação legal;</li>
+        <li>no legítimo interesse relacionado à segurança da plataforma;</li>
+        <li>na prevenção à fraude e uso indevido.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>4. Retenção de Logs e Registros</h3>
+      <p>
+        Os registros técnicos e logs de acesso serão armazenados pelo prazo máximo de até 6 (seis) meses,
+        podendo ser preservados por período superior exclusivamente nos casos previstos em lei,
+        mediante ordem judicial, requisição legal válida ou necessidade de preservação para investigação
+        de atividades ilícitas.
+      </p>
+      <p>A retenção desses dados ocorre para:</p>
+      <ul>
+        <li>segurança da plataforma;</li>
+        <li>prevenção a fraudes e abusos;</li>
+        <li>investigação de atividades ilícitas;</li>
+        <li>cumprimento de obrigações legais;</li>
+        <li>cooperação com autoridades competentes.</li>
+      </ul>
+      <p>
+        Mesmo em caso de solicitação de exclusão, determinados registros poderão ser mantidos
+        quando necessários para cumprimento de obrigação legal, exercício regular de direitos,
+        preservação de evidências ou atendimento de requisições judiciais e administrativas.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>5. Compartilhamento de Dados</h3>
+      <p>Os dados poderão ser compartilhados apenas:</p>
+      <ul>
+        <li>com serviços essenciais para funcionamento do Aplicativo;</li>
+        <li>para cumprimento de obrigação legal;</li>
+        <li>mediante ordem judicial ou requisição legal válida;</li>
+        <li>para proteção dos direitos e segurança da plataforma.</li>
+      </ul>
+      <p>A KiritoProjects não comercializa dados pessoais dos usuários.</p>
+    </div>
+
+    <div class="card">
+      <h3>6. Segurança das Informações</h3>
+      <p>
+        São adotadas medidas técnicas e organizacionais adequadas para proteger os dados
+        contra acessos não autorizados, alteração, divulgação ou destruição indevida.
+      </p>
+      <p>Entretanto, nenhum sistema é completamente seguro, não sendo possível garantir segurança absoluta.</p>
+    </div>
+
+    <div class="card">
+      <h3>7. Direitos do Usuário</h3>
+      <p>Nos termos da LGPD, o usuário poderá solicitar:</p>
+      <ul>
+        <li>confirmação da existência de tratamento de dados;</li>
+        <li>acesso aos dados pessoais;</li>
+        <li>correção de informações incorretas;</li>
+        <li>anonimização ou exclusão de dados, quando aplicável;</li>
+        <li>informações sobre compartilhamento de dados;</li>
+        <li>revogação de consentimento, quando aplicável.</li>
+      </ul>
+      <p>Solicitações relacionadas à privacidade e proteção de dados podem ser realizadas através do e-mail:</p>
+      <p><a class="email" href="mailto:socksliteofc@gmail.com">socksliteofc@gmail.com</a></p>
+    </div>
+
+    <div class="card">
+      <h3>8. Alterações desta Política</h3>
+      <p>Esta Política poderá ser atualizada periodicamente. Recomendamos que o usuário revise esta página regularmente.</p>
+      <p>O uso contínuo do Aplicativo após alterações representará concordância com os novos termos.</p>
+    </div>
+
+    <div class="updated">
+      <span class="label">Última atualização</span>
+      <span class="date" data-date>14 de maio de 2026</span>
+    </div>
+  </main>
+
+  <!-- ============== ENGLISH ============== -->
+  <main data-lang-content="en" hidden>
+
+    <h1>Terms and Conditions</h1>
+    <p class="lead">
+      These Terms and Conditions (“Terms”) govern the use of the SocksLite application (“App”),
+      developed and provided by KiritoProjects (“Developer”).
+      By using the App, you fully agree to these Terms.
+      If you do not agree with any provision herein, do not use the App.
+    </p>
+
+    <div class="card">
+      <h3>1. Intellectual Property</h3>
+      <p>
+        All content, trademarks, logos, code, features and elements related to the App
+        are the exclusive property of KiritoProjects and are protected by applicable intellectual property laws.
+      </p>
+      <p>
+        It is forbidden to copy, modify, distribute, sell, decompile, reverse engineer
+        or create derivative versions of the App without prior and express authorization.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>2. Permitted Use</h3>
+      <p>The user agrees to use the App only for lawful purposes, in compliance with applicable laws.</p>
+      <p>It is expressly forbidden to use the App for:</p>
+      <ul>
+        <li>fraud or scams;</li>
+        <li>unauthorized access to systems;</li>
+        <li>distribution of illegal content;</li>
+        <li>activities that violate third-party rights;</li>
+        <li>attempts to compromise the security of the platform.</li>
+      </ul>
+      <p>
+        Failure to comply with these rules may result in the suspension or termination of the account,
+        in addition to the adoption of the applicable legal measures.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>3. Service Modifications and Availability</h3>
+      <p>
+        KiritoProjects may modify, update, suspend or terminate the App, in part or in full,
+        at any time and without prior notice.
+      </p>
+      <p>
+        Although reasonable efforts are made to keep the service available and functional,
+        we do not guarantee continuous availability, absence of failures or uninterrupted operation.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>4. Limitation of Liability</h3>
+      <p>
+        KiritoProjects makes reasonable efforts to keep the App secure, stable and functional.
+        However, the service is provided “as is” and may experience interruptions, technical failures,
+        temporary unavailability or limitations arising from external factors.
+      </p>
+      <p>
+        KiritoProjects does not guarantee uninterrupted, error-free operation
+        or full compatibility with all devices and networks.
+      </p>
+      <p>To the maximum extent permitted by applicable law, KiritoProjects shall not be liable for:</p>
+      <ul>
+        <li>failures caused by third parties, providers, carriers or external services;</li>
+        <li>misuse or unauthorized use of the App;</li>
+        <li>indirect, incidental or consequential damages;</li>
+        <li>loss of profits, revenue or data arising from the use of the service;</li>
+        <li>issues resulting from device modifications, including root or jailbreak.</li>
+      </ul>
+      <p>
+        Nothing in these Terms excludes liabilities that cannot be limited or excluded
+        under applicable law.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>5. Third-Party Services</h3>
+      <p>
+        The App may use third-party services for operation, authentication,
+        analytics, advertising and platform stability.
+      </p>
+      <p>These services have their own privacy and data handling policies:</p>
+      <ul>
+        <li><strong>Appodeal:</strong> <a href="https://appodeal.com/terms-of-service/">appodeal.com/terms-of-service</a></li>
+        <li><strong>Google AdMob:</strong> <a href="https://policies.google.com/terms">policies.google.com/terms</a></li>
+        <li><strong>Google Play Services:</strong> <a href="https://policies.google.com/terms">policies.google.com/terms</a></li>
+        <li><strong>Firebase:</strong> <a href="https://firebase.google.com/terms/crashlytics">firebase.google.com/terms/crashlytics</a></li>
+        <li><strong>Google Privacy & Terms:</strong> <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>6. Cooperation with Authorities</h3>
+      <p>
+        KiritoProjects may cooperate with competent authorities upon valid legal request,
+        court order or legal obligation, observing the limits set by applicable law,
+        including the Brazilian General Data Protection Law (LGPD) and the Brazilian Internet Civil Framework.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>7. Changes to the Terms</h3>
+      <p>These Terms may be amended periodically. Changes take effect upon publication on this page.</p>
+      <p>It is the user's responsibility to review the Terms regularly.</p>
+    </div>
+
+    <div class="section-break">Privacy Policy</div>
+
+    <h1>Privacy Policy</h1>
+    <p class="lead">
+      This Privacy Policy describes how KiritoProjects collects, uses, stores and protects
+      data related to the use of the SocksLite application, in compliance with the Brazilian
+      General Data Protection Law (Law No. 13.709/2018) and the Brazilian Internet Civil
+      Framework (Law No. 12.965/2014).
+    </p>
+
+    <div class="card">
+      <h3>1. Data Collected</h3>
+      <p>
+        For service operation, user authentication, platform security and abuse prevention,
+        the App may collect technical and operational data, including:
+      </p>
+      <ul>
+        <li>IP address used in the connection;</li>
+        <li>session start and end date and time;</li>
+        <li>connection duration;</li>
+        <li>technical device identifiers;</li>
+        <li>device model and operating system;</li>
+        <li>diagnostic and crash information;</li>
+        <li>authentication and app operation logs;</li>
+        <li>name of the Google account used for authentication;</li>
+        <li>email address of the Google account;</li>
+        <li>profile photo or image linked to the Google account.</li>
+      </ul>
+      <p>Google account data is used exclusively for:</p>
+      <ul>
+        <li>user authentication and identification;</li>
+        <li>account management;</li>
+        <li>security and prevention of unauthorized access;</li>
+        <li>proper functioning of features tied to the login.</li>
+      </ul>
+      <p>
+        By using Google sign-in, the user authorizes Google to share this information with the App,
+        according to the permissions granted during authentication.
+      </p>
+      <p>SocksLite does NOT monitor, store or analyze:</p>
+      <ul>
+        <li>traffic content;</li>
+        <li>browsing history;</li>
+        <li>messages;</li>
+        <li>visited sites;</li>
+        <li>files transmitted by the user.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>2. Purpose of Data Processing</h3>
+      <p>The collected data may be used to:</p>
+      <ul>
+        <li>provide and maintain the operation of the service;</li>
+        <li>ensure security and stability of the platform;</li>
+        <li>prevent fraud, abuse and unauthorized access;</li>
+        <li>comply with legal and regulatory obligations;</li>
+        <li>perform technical analysis and improvements to the app.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>3. Legal Basis</h3>
+      <p>Data processing may be carried out based on:</p>
+      <ul>
+        <li>execution of the service requested by the user;</li>
+        <li>compliance with legal obligation;</li>
+        <li>legitimate interest related to platform security;</li>
+        <li>prevention of fraud and misuse.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>4. Log and Record Retention</h3>
+      <p>
+        Technical records and access logs will be stored for a maximum period of 6 (six) months,
+        and may be retained for a longer period only in cases provided by law, upon court order,
+        valid legal request or the need to preserve evidence for the investigation of unlawful activities.
+      </p>
+      <p>The retention of this data occurs for:</p>
+      <ul>
+        <li>platform security;</li>
+        <li>prevention of fraud and abuse;</li>
+        <li>investigation of unlawful activities;</li>
+        <li>compliance with legal obligations;</li>
+        <li>cooperation with competent authorities.</li>
+      </ul>
+      <p>
+        Even in the case of a deletion request, certain records may be retained when necessary
+        to comply with a legal obligation, exercise rights, preserve evidence or respond to
+        judicial and administrative requests.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>5. Data Sharing</h3>
+      <p>Data may only be shared:</p>
+      <ul>
+        <li>with services essential to the operation of the App;</li>
+        <li>to comply with a legal obligation;</li>
+        <li>upon court order or valid legal request;</li>
+        <li>to protect the rights and security of the platform.</li>
+      </ul>
+      <p>KiritoProjects does not sell users' personal data.</p>
+    </div>
+
+    <div class="card">
+      <h3>6. Information Security</h3>
+      <p>
+        Adequate technical and organizational measures are adopted to protect data
+        against unauthorized access, alteration, disclosure or improper destruction.
+      </p>
+      <p>However, no system is completely secure and absolute security cannot be guaranteed.</p>
+    </div>
+
+    <div class="card">
+      <h3>7. User Rights</h3>
+      <p>Under the LGPD, the user may request:</p>
+      <ul>
+        <li>confirmation of the existence of data processing;</li>
+        <li>access to personal data;</li>
+        <li>correction of inaccurate information;</li>
+        <li>anonymization or deletion of data, where applicable;</li>
+        <li>information about data sharing;</li>
+        <li>withdrawal of consent, where applicable.</li>
+      </ul>
+      <p>Privacy and data-protection requests can be made through the email below:</p>
+      <p><a class="email" href="mailto:socksliteofc@gmail.com">socksliteofc@gmail.com</a></p>
+    </div>
+
+    <div class="card">
+      <h3>8. Changes to this Policy</h3>
+      <p>This Policy may be updated periodically. We recommend that the user review this page regularly.</p>
+      <p>Continued use of the App after changes will represent agreement with the new terms.</p>
+    </div>
+
+    <div class="updated">
+      <span class="label">Last updated</span>
+      <span class="date" data-date>May 14, 2026</span>
+    </div>
+  </main>
+
+</div>
+
+<script>
+  (function(){
+    const buttons = document.querySelectorAll('.lang button');
+    const sections = document.querySelectorAll('[data-lang-content]');
+
+    function setLang(lang){
+      buttons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+      sections.forEach(s => s.hidden = (s.dataset.langContent !== lang));
+      document.documentElement.lang = (lang === 'en') ? 'en' : 'pt-BR';
+      try { localStorage.setItem('socksliteLang', lang); } catch(e){}
+    }
+
+    buttons.forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+
+    let saved = 'pt';
+    try { saved = localStorage.getItem('socksliteLang') || 'pt'; } catch(e){}
+    if (saved !== 'pt') setLang(saved);
+  })();
+</script>
 
 </body>
 </html>
